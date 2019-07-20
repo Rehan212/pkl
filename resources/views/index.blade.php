@@ -36,14 +36,14 @@
 	<header class="header-section">
 		<div class="header-top">
 			<div class="container">
-				<div class="header-social">
+				{{-- <div class="header-social">
 					<a href="#"><i class="fa fa-pinterest"></i></a>
 					<a href="#"><i class="fa fa-facebook"></i></a>
 					<a href="#"><i class="fa fa-twitter"></i></a>
 					<a href="#"><i class="fa fa-dribbble"></i></a>
 					<a href="#"><i class="fa fa-behance"></i></a>
 					<a href="#"><i class="fa fa-linkedin"></i></a>
-				</div>
+				</div> --}}
 				<div class="user-panel">
 
 					<a href="/admin/artikel">Login</a>
@@ -65,7 +65,6 @@
 					<li><a href="{{ url('/') }}">Home</a></li>
 					<li><a href="/about">Features</a></li>
 					<li><a href="/recipes">Receipies</a></li>
-					<li><a href="#">Reviews</a></li>
 					<li><a href="/contact">Contact</a></li>
 				</ul>
 			</div>
@@ -501,21 +500,20 @@
 					<div class="footer-logo">
 						<img src="assets/frontend/img/logo2.png" alt="">
 					</div>
-					<div class="footer-social">
+					{{-- <div class="footer-social">
 						<a href="#"><i class="fa fa-pinterest"></i></a>
 						<a href="#"><i class="fa fa-facebook"></i></a>
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-dribbble"></i></a>
 						<a href="#"><i class="fa fa-behance"></i></a>
 						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</div>
+					</div> --}}
 				</div>
 				<div class="col-lg-6 text-lg-right">
 					<ul class="footer-menu">
 						<li><a href="{{ url('/') }}">Home</a></li>
 					    <li><a href="/about">Features</a></li>
 					    <li><a href="/recipes">Receipies</a></li>
-					    <li><a href="#">Reviews</a></li>
 					    <li><a href="/contact">Contact</a></li>
 					</ul>
 					<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
